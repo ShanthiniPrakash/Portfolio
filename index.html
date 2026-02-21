@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shanthini - B.Tech Student | Portfolio">
+    <title>Shanthini | Student Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Shanthini CP</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Shanthini CP</h1>
+            <p class="hero-role">B.Tech Student | Aspiring Developer</p>
+            <p class="hero-summary">
+                A passionate learner with a strong interest in programming, problem-solving, and emerging technologies. 
+                I thrive in team environments and aim to contribute to real-world projects through practical skills and creative thinking.
+            </p>
+            <div class="hero-buttons">
+                <a href="resume.html" class="btn btn-primary">View Resume</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll down</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    I'm Shanthini, a B.Tech student at Dr. N.G.P. Institute of Technology with a CGPA of 8.05. 
+                    I am eager to take on challenges that encourage growth and innovation.
+                </p>
+                <p class="about-text">
+                    Known for being adaptable and collaborative, I bring strong communication skills, teamwork, 
+                    and time management to every project. I have participated in hackathons, project expos, 
+                    and technical events—including Ethical Hackhive at KPR Institute and TechnoTronz 25 at PSG College of Technology.
+                </p>
+                <p class="about-text">
+                    My interests span IoT, web development, and building solutions that make a real-world impact.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Technical</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Adaptability</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Time Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Agri Connect -->
+                <article class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="images/agri-connect.jpg" alt="Agri Connect Platform" class="project-image" loading="lazy">
+                    </div>
+                    <h3 class="project-title">Agri Connect</h3>
+                    <p class="project-description">
+                        Developed a platform connecting farmers directly with consumers, allowing them to sell fresh produce at fair prices. 
+                        The platform also enables farmers to list land, hire labor, and manage transactions with transparency and trust.
+                    </p>
+                    <div class="project-tech">
+                        <span>Web Development</span>
+                        <span>Platform Design</span>
+                    </div>
+                </article>
+                <!-- Project 2: Geofencing ID Card -->
+                <article class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="images/geofencing-id.jpg" alt="Geofencing ID Card System" class="project-image" loading="lazy">
+                    </div>
+                    <h3 class="project-title">Geofencing ID Card</h3>
+                    <p class="project-description">
+                        Designed a geofencing-based student tracking system using IoT, which monitors student location within designated zones. 
+                        Sends alerts when a student exits the area and enhances campus safety and accountability.
+                    </p>
+                    <div class="project-tech">
+                        <span>IoT</span>
+                        <span>Geofencing</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-marker"></div>
+                    <div class="education-content">
+                        <h3>Dr. N.G.P. Institute of Technology</h3>
+                        <p class="education-degree">B.Tech</p>
+                        <p class="education-duration">2024 – Present</p>
+                        <p class="education-grade">Current CGPA: 8.05</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-marker"></div>
+                    <div class="education-content">
+                        <h3>Bharathi Matriculation Higher Secondary School</h3>
+                        <p class="education-degree">Higher Secondary</p>
+                        <p class="education-duration">2021 – 2024</p>
+                        <p class="education-grade">HSC: 81% | SSLC: 90%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements & Certifications Section -->
+    <section id="achievements" class="section achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            
+            <div class="achievements-block">
+                <h3 class="subsection-title">Achievements</h3>
+                <ul class="achievements-list">
+                    <li>Won second place (Team) in Project Expo conducted by KGISL Institute of Technology and received a cash prize of Rs.1,000</li>
+                    <li>Achieved winner position in intercollege throwball tournament</li>
+                </ul>
+            </div>
+
+            <div class="achievements-block">
+                <h3 class="subsection-title">Co-Curricular Activities</h3>
+                <ul class="achievements-list">
+                    <li>Participated in 24-Hours Hackathon – Ethical Hackhive at KPR Institute of Engineering and Technology (Oct 2024)</li>
+                    <li>Participated in TechnoTronz 25 at PSG College of Technology (Feb 2025)</li>
+                </ul>
+            </div>
+
+            <div class="achievements-block">
+                <h3 class="subsection-title">Online Certifications</h3>
+                <div class="cert-grid">
+                    <div class="cert-badge">Java NPTEL – 87% (Elite + Silver)</div>
+                    <div class="cert-badge">Python for Beginners – Simplilearn (Oct 2024)</div>
+                    <div class="cert-badge">C Programming – Great Learning (Nov 2024)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <a href="mailto:shanthinijp107@gmail.com" class="contact-item">
+                        <span class="contact-icon">✉</span>
+                        <span>shanthinijp107@gmail.com</span>
+                    </a>
+                    <a href="tel:9585538107" class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <span>+91 9585538107</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shanthini-praxha-1220a8328/" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <span class="contact-icon">in</span>
+                        <span>LinkedIn Profile</span>
+                    </a>
+                    <div class="contact-item contact-address">
+                        <span class="contact-icon">📍</span>
+                        <span>Huducco Colony, Tatabad, Coimbatore – 641012</span>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Shanthini. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
